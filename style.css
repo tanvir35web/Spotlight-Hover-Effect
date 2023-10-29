@@ -1,0 +1,91 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background: radial-gradient(#2C5364, #0F2027);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1{
+    color: white;
+    letter-spacing: 1px;
+    line-height: 1.6;
+    margin-right: 150px;
+}
+h1 span {
+    background: #5a6e00;
+    padding: 10px;
+    border-radius: 10px;
+    
+}
+.tittle{
+    transition: .4s ease;
+}
+
+.tittle:hover {
+    scale: 1.5;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul li {
+    margin: 0 1em;
+    padding: 4em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.1em;
+    font-weight: 700;
+    transition: 0.3s;
+    position: relative;
+}
+
+ul li:hover a {
+    color: #0F2027;
+}
+
+.text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transition: 0.3s;
+}
+
+i {
+    font-size: 2em;
+}
+
+
+/* This element will be created in JS */
+
+.circle {
+    position: absolute;
+    width: 0;
+    height: 0;
+    background: #fff;
+    border-radius: 50%;
+    transform: translate(-50%, -50%);
+    pointer-events: none;
+    z-index: -1;
+    transition: width 0.4s, height 0.4s;
+}
+
+.circle-active {
+    width: 6em;
+    height: 6em;
+}
+
