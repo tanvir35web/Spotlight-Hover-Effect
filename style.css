@@ -1,7 +1,7 @@
 body {
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
-    background: radial-gradient(#2C5364, #00540f);
+    background: radial-gradient(#2C5364, #270f0f);
     height: 100vh;
     display: flex;
     justify-content: center;
